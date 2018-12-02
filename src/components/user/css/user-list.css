@@ -1,0 +1,21 @@
+.userItem{
+
+    border: 2px solid;
+    margin-top: 1px;
+    padding: 5px;
+}
+
+.userList{
+
+    list-style-type:none;
+    margin:0;
+    padding:5px;
+    text-align: left;
+    max-width: 20%;
+    border: 2px solid;
+}
+
+.selectedUser{
+
+    background-color: blue;
+}
