@@ -1,0 +1,2 @@
+export const USER_SELECTED = "USER_SELECTED";
+export const CLEAR_SELECTION = "CLEAR_SELECTION";
