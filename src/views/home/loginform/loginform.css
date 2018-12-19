@@ -1,0 +1,26 @@
+.flex-container-item-login-form{
+
+    display: flex;
+    align-items: flex-end;  
+}
+
+.form-item-contaner{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.flex-container-item-login-form input{
+
+    margin-top: 10px;
+    min-height: 30px;
+    border: 1px solid #008000;
+    font-family: cursive;
+}
+
+.flex-container-item-login-form label{
+
+    color:white;
+
+}

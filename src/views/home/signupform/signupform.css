@@ -1,0 +1,50 @@
+.flex-signup-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;   
+}
+
+.flex-signup-form-container h1,h4{
+
+    color: #228B22;
+    padding:0;
+    margin:0;
+}
+
+.flex-signup-form-container .title-section{
+
+    margin-bottom: 40px;
+}
+.flex-signup-form-container input{
+
+    margin-top: 10px;
+    margin-right: 10px;
+    min-height: 30px;
+    padding-left: 10px;
+    border: 1px solid #008000;
+    font-family: cursive;
+    font-size: 14px;
+    border:none;
+    border-bottom: 1px #008000 solid;
+    background: #e6ffe6;
+}
+
+.submit-btn-container{
+
+    margin-top: 10px;
+    padding-right: 10px;
+}
+     
+.flex-signup-form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.punch-line{
+
+    text-decoration: underline;
+    font-style: italic;
+}
