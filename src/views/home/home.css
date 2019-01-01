@@ -1,14 +1,14 @@
 .home-view{
 
     display:grid;
-    grid-template-columns: 40px 50% 50% 10px;
+    grid-template-columns: 20px 50% 50% 20px;
     grid-template-rows: 100px 100% 50px;
 }
 
 .strip{
 
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 8;
     background-color: #228B22;
     padding:40px;
     
@@ -25,7 +25,7 @@
 
 .flex-content-container{
     
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 8;
 
     display:flex;
@@ -38,8 +38,18 @@
 .home-image{
 
     border-radius: 10px;
-    max-width: 550px;
+    max-width: 250px;
 }
+
+@media(min-width: 40rem){
+
+    .home-image{
+
+        border-radius: 10px;
+        max-width: 550px;
+    }
+}
+
 
 .footer-container{
 
@@ -52,5 +62,4 @@
 .footer-text{
 
     color:floralwhite;
-    font-family: cursive;
 }

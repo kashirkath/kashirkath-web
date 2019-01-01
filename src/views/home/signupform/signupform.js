@@ -5,24 +5,24 @@ const SignupForm = (props) => {
 
         return (
 
-            <div className="flex-signup-form-container">
+            <div className="signup-form-wrapper">
                 <div class="title-section">
-                    <h1>Create Your Kashur Account Now!</h1>
+                    <h1>Create Your Koshur Account Now!</h1>
                     <h4 class="punch-line">Flaunt your Kashmiriath, publish your views to the world!</h4>
                 </div>
                 
-                <form class="flex-signup-form">
-                    <div class="reg-form-item-container">
+                <form class="signup-form-container">
+                    <div class="signup-form-item-container">
                         <input placeholder="First Name" type="text" name="fname" required/>
                         <input placeholder="Last Name" type="text" name="lname" required/>
                     </div>
                     
-                    <div class="reg-form-item-container">
+                    <div class="signup-form-item-container">
                         <input placeholder="Mobile Number" type="number" name="mnumber" required/>
                         <input placeholder="OTP" type="number" name="mnumber" required/>
                     </div>
 
-                    <div class="reg-form-item-container">
+                    <div class="signup-form-item-container">
                         <input placeholder="Password" type="password" name="pwsd" required/>
                         <input placeholder="Confirm Password" type="password" name="cpwsd" required/>
                     </div>

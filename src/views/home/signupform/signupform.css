@@ -1,50 +1,87 @@
-.flex-signup-form-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 40px;   
-}
-
-.flex-signup-form-container h1,h4{
+.signup-form-wrapper h1,h4{
 
     color: #228B22;
     padding:0;
-    margin:0;
+    margin: 0;
 }
 
-.flex-signup-form-container .title-section{
+.title-section{
 
-    margin-bottom: 40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 20px;
 }
-.flex-signup-form-container input{
+
+.signup-form-container{
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 10px;
+}
+
+.signup-form-item-container{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+@media(min-width: 40rem){
+
+    .signup-form-item-container{
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start; 
+    
+    }
+}
+
+
+
+.submit-btn-container{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end; 
+}
+
+@media(min-width: 40rem){
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.punch-line{
+
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.signup-form-container input{
 
     margin-top: 10px;
     margin-right: 10px;
     min-height: 30px;
     padding-left: 10px;
     border: 1px solid #008000;
-    font-family: cursive;
     font-size: 14px;
     border:none;
     border-bottom: 1px #008000 solid;
     background: #e6ffe6;
-}
-
-.submit-btn-container{
-
-    margin-top: 10px;
-    padding-right: 10px;
-}
-     
-.flex-signup-form{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.punch-line{
-
-    text-decoration: underline;
-    font-style: italic;
 }

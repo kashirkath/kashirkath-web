@@ -6,7 +6,7 @@ const Logo = (props) => {
         return (
 
             <div class="item-logo">
-                <h1 className="header-text">Kashur... </h1>
+                <h1 className="header-text">Koshur...    kati bani</h1>
             </div>
 
         );

@@ -16,12 +16,12 @@ const Home = (props) => {
                 </section>
                 
                 <section className="flex-content-container">
-                    <img className="home-image" src={homeImage} alt="kashmiri kids in pheran"></img>    
+                    <img className="home-image" src={homeImage} alt="kashmiri kids in pheran"></img>
                     <SignupForm></SignupForm>
                 </section>
 
                 <section className="footer-container strip">
-                    <p className="footer-text">Kashur, copyright: Amjad Ghazi</p>
+                    <p className="footer-text">Koshur, copyright: Amjad Ghazi</p>
                 </section>
 
         </div>
